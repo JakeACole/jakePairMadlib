@@ -1,0 +1,12 @@
+body {
+	padding: 200px;
+	text-align: center;
+}
+
+.inline {
+	display: inline-block;
+}
+
+h1, h3 {
+	padding-bottom: 25px;
+}

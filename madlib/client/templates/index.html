@@ -1,0 +1,63 @@
+<head>
+  <title>madLib</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  	{{> addForm}}
+</body>
+
+<!--  {{> hello}}
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template> -->
+
+<template name="addForm">
+
+	<div class="form-horizontal col-md-12">
+		<h1>Create your own MadLib!</h1>
+
+		<h3 id="mlOutput"> </h3>
+		
+		<div class="form-group col-md-12">
+			<label class = "col-md-3 inline" for="exclamation">Exclamation: </label>
+			<div class="col-md-9 inline">
+	    		<input type="exclamation" class="form-control" id="exclamation" placeholder="Exclamation">
+	    	</div>
+
+	  	</div>
+
+	  	<div class="form-group col-md-12">
+			<label class = "col-md-3 inline" for="adverb">Adverb: </label>
+			<div class="col-md-9 inline">
+	    		<input type="adverb" class="form-control" id="adverb" placeholder="Adverb">
+	    	</div>
+
+	  	</div>
+
+	  	<div class="form-group col-md-12">
+			<label class = "col-md-3 inline" for="noun">Noun: </label>
+			<div class="col-md-9 inline">
+	    		<input type="noun" class="form-control" id="noun" placeholder="Noun">
+	    	</div>
+
+	  	</div>
+
+	  	<div class="form-group col-md-12">
+			<label class = "col-md-3 inline" for="verb">Verb: </label>
+			<div class="col-md-9 inline">
+	    		<input  type="verb" class="form-control" id="verb" placeholder="Verb">
+	    	</div>
+	  	</div>
+
+	  	<div class="form-group col-md-12">
+  			<div class="col-sm-offset-2 col-sm-10">
+	  			<button id="submit-btn" type="submit" class="btn btn-default">Submit</button>
+	  		</div>
+		</div>
+
+	</div>
+
+</template>
